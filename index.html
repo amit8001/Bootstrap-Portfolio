@@ -9,18 +9,20 @@
  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/sticky-footer-navbar.css">
     <title>Hello, world!</title>
   </head>
   <body>
+      <!--Start of Navigation bar code-->
     <nav class="navbar navbar-light navbar-expand-lg ">
         <a class="navbar-brand" style="background-color: teal; color:azure; margin-left:190px;padding:10px;margin-top: -8px; " href="#">Amitav Panda</a>
            <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="index.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -28,39 +30,44 @@
           </ul>
         </div>
       </nav>
-      <div class ="jumbotron" style="height: 520px;    margin-top: -8px; ">
-      <div class="container">
-          <div class="row"  >
-                <div class ="col-sm-1"></div>
-            <div class ="col-sm-7" style="background-color: white;margin-top: -20px; ">
-                    
-                            <div class="row" style="margin-left:0px">
-                                    <div class="border border-top-0 border-right-0 border-left-0" style="color: teal;width:100%;
-                                    margin-top:10px; margin-bottom:10px;">
-                                           <h4>About Me</h4> 
-                                    </div>
-                                  </div>  
+         <!--End of Navigation bar code-->
 
-                  
-                    
-                    <div class="row" style="color: grey; margin-top: 30px;  ">
-                            <div class ="col-sm-7"><img class="img-fluid" src="assets/images/Me.jpg" width="400" height="300">
-                            </div>
-                            <div class ="col-sm-5">This is Amitav Panda. I am 38 years old. I live in Princeton NJ. My tactical career plan is to excel in Technology Architecture.
-                                    This is Amitav Panda. I am 38 years old. I live in Princeton NJ. My tactical career plan is to excel in Technology Architecture.
-                                    This is Amitav Panda. I am 38 years old. I live in Princeton NJ.   </div>
+         <!--Start of the main body code where I have used Jumbotron as the eldest container, followed by a main container--> 
+        <!--In the 'container', I have only 1 main ROW-->
+        <!--In that 1 ROW, I have 4 main columns (1st and 3rd columns are only for aligning SPACING)-->
+        <!--for the 2nd column (size class= "col-sm-7") that houses the About Me section, it is further split to 2 sub-rows-->
+                <!--The 1st sub row address the "About Me" display req-->
+                <!--The 2nd sub row is split into 2 sub-columns, one for the IMG and the other for the description-->    
+        <!--Finally the 4th column (size class= "col-sm-3") has 2 sub rows to house the COnnect with Me section and the networking icons-->
       
-
-                </div>
-                </div>
-                <div class ="col-sm-1"></div>
-                <div class ="col-sm-3" style="background-color: white;margin-top: -20px;">
-                
-                        <div class="card">
-                                <div class="card-body" style="color: teal">
+ <div class ="jumbotron" style="height: 550px;    margin-top: -8px; ">
+      <div class="container">
+            <div class="row"  >
+                    <div class ="col-sm-1"></div>
+                    <div class ="col-sm-7" style="background-color: white;margin-top: -20px; ">
+                            <div class="row" style="margin-left:0px">
+                                <div class="border border-top-0 border-right-0 border-left-0" style="color: teal;width:95%;
+                                    margin-top:10px; margin-bottom:10px;">
+                                    <h4>About Me</h4> 
+                                </div>
+                            </div>  
+                            <div class="row" style="color: grey; margin-top: 8px;  ">
+                                    <div class ="col-sm-6"><img class="img-fluid" src="assets/images/Me.jpg" >
+                                    </div>
+                                    <div class ="col-sm-5">This is Amitav Panda. I am 38 years old. I live in Princeton NJ. My tactical career plan is to excel in Technology Architecture.
+                                        This is Amitav Panda. I am 38 years old. I live in Princeton NJ. My tactical career plan is to excel in Technology Architecture.
+                                        This is Amitav Panda. I am 38 years old. I live in Princeton NJ.  
+                                    </div>
+                            </div>
+                    </div>
+                    <div class ="col-sm-1"></div>
+                    <div class ="col-sm-3" style="background-color: white;margin-top: -20px;">
+                            <div class="row" style="margin-left:0px">
+                                <div class="border border-top-0 border-right-0 border-left-0" style="color: teal;width:95%;
+                                margin-top:10px; margin-bottom:10px;">
                                        <h4>Connect with Me</h4> 
                                 </div>
-                              </div>  
+                            </div>    
                             <div class="row" style=" margin-top: 30px; margin-left:30px;">
                                     <a href="#" class="fa fa-google" style="    background: #dd4b39;
                                     color: white;
@@ -78,13 +85,16 @@
                                     font-size: 20px;
                                     width: 45px;
                                     margin: 10px;"></a>
-                                </div>
-                
-                </div>
-          </div>
+                            </div>
+                    </div>
+            </div>
       </div>
 </div>
-
+<footer class="footer">
+        <div class="container">
+          <span >Copyright &#174</span>
+        </div>
+      </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
